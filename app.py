@@ -7,7 +7,7 @@ app = Flask(__name__)
 DB_HOST = "localhost"
 DB_NAME = "SistemKasir"
 DB_USER = "postgres"
-DB_PASS = "Oryzaaulia14" # Ganti dengan password asli Anda
+DB_PASS = "Admin123" # Ganti dengan password asli Anda
 
 def get_db_connection():
     conn = psycopg2.connect(
